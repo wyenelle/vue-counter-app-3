@@ -16,7 +16,7 @@ const increment = () => {
     }
 
     const setValue = (num) => {
-        co
+        
         number.value = Number(num)
     }
 
