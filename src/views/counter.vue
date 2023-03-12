@@ -69,15 +69,12 @@ const {increment,decrement,reset,setValue,number} = useCounter(num)
         border: 1px solid gray ;
     }
     .number{
-        border: 2px solid blue;
         height: 100px;
         width: 100px;
-        border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: blue;
         color:white;
         margin: 2rem 0;
         font-weight: 500;
