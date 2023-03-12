@@ -16,6 +16,7 @@ const increment = () => {
     }
 
     const setValue = (num) => {
+        console.log(num)
         number.value = Number(num)
     }
 
