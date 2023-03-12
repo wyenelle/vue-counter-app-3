@@ -1,7 +1,7 @@
 import { ref } from "vue"
 
 const useCount = (num) => {
-let number = ref(0)
+const number = ref(0)
 
 const increment = () => {
         number.value = number.value + 1
@@ -16,6 +16,7 @@ const increment = () => {
     }
 
     const setValue = (num) => {
+        co
         number.value = Number(num)
     }
 

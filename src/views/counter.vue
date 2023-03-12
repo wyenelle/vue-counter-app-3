@@ -2,7 +2,7 @@
 import useCounter from '../composable/useCount.js'
 import {ref} from 'vue'
 
-const num = ''
+let num = ''
 const {increment,decrement,reset,setValue,number} = useCounter(num)
 </script>
 
