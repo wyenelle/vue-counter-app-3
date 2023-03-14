@@ -1,9 +1,16 @@
 <script setup>
 import useCounter from '../composable/useCount.js'
-import {ref} from 'vue'
+import {useStore} from 'vuex'
+import {computed} from 'vue'
+import {useState} from 'vuex-composition-helpers/dist'
+
+
+const store = useStore()
+const {count} = useState(['count'])
+
 
 let num = ''
-const {increment,decrement,reset,setValue,number} = useCounter(num)
+const {increment,decrement,reset,setValue} = useCounter(num,store)
 </script>
 
 <template>
@@ -15,7 +22,7 @@ const {increment,decrement,reset,setValue,number} = useCounter(num)
         </div>
         
         <div class="number">
-            <h1> {{ number }}</h1>
+            <h1> {{ count }}</h1>
         </div>
         
         <div>

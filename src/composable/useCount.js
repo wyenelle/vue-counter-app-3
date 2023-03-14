@@ -1,23 +1,22 @@
 import { ref } from "vue"
 
-const useCount = (num) => {
+const useCount = (num,store) => {
 const number = ref(0)
 
 const increment = () => {
-        number.value = number.value + 1
+        store.commit('add')
     }
 
     const decrement = () => {
-        number.value <= 0 ? number.value = 0 :number.value = number.value - 1
+        store.commit('minus')
     }
 
     const reset = () => {
-         number.value = 0
+        store.commit('reset')
     }
 
     const setValue = (num) => {
-        
-        number.value = Number(num)
+        store.commit('setVal',num)        
     }
 
     return {increment,decrement,reset,setValue,number}
