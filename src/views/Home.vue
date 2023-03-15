@@ -15,7 +15,7 @@ import Img from '../assets/calc.png'
             <div class=" grid grid-cols-2 text-white w-full h-full ">
                 <div class="col-span-2 md:col-span-1 ">
                     <div class="w-full h-full centered-col gap-9 pl-6">
-                        <h1 class="w-10/12  text-4xl font-bold text-start ">thinking of using a good and proven <span
+                        <h1 class="w-10/12  text-5xl font-bold text-start ">Thinking of using a good and proven <span
                                 class="text-orange-500">counter </span> ? i've got you covered. </h1>
 
                         <p class="w-10/12 text-xl ">
@@ -23,7 +23,7 @@ import Img from '../assets/calc.png'
                             rem tenetur!
                         </p>
 
-                        <ul class="md:mt-5  mt-3   italic    shadow-lg  ">
+                        <ul class="md:mt-5  mt-3 pl-3  italic    shadow-lg  ">
                             <li class="- text-xl">Add and Subtract functionality</li>
                             <li class="- text-xl">Use of Composables</li>
                             <li class="- text-xl">Set counter</li>

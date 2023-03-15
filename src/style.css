@@ -13,7 +13,7 @@
         @apply flex justify-center items-start flex-col
     }
     .btn{
-        @apply bg-orange-600 text-white px-8 py-3 border border-orange-600 text-center text-2xl font-bold rounded-md
+        @apply  text-white px-8 py-3 border border-orange-600 text-center text-2xl font-bold rounded-md
     }
 }
 
