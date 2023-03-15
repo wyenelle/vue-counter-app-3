@@ -23,7 +23,7 @@ import Img from '../assets/calc.png'
                             rem tenetur!
                         </p>
 
-                        <ul class="md:mt-5  mt-3 pl-3  italic    shadow-lg  ">
+                        <ul class="md:mt-5  mt-3 p-4 border border-slate-200  italic    shadow-lg  ">
                             <li class="- text-xl">Add and Subtract functionality</li>
                             <li class="- text-xl">Use of Composables</li>
                             <li class="- text-xl">Set counter</li>
