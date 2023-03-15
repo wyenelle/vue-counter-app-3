@@ -22,7 +22,7 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
                 <h1 class="text-6xl font-extrabold px-2 text-white"> {{ count }}</h1>
             </div>
 
-            <div class="flex flex-col mb-4  w-10/12 gap=5">
+            <div class="flex flex-col mb-4  w-7/12  gap=5">
                 <div class=" centered">
                     <input type="text" class="h-10  px-2 bg-transparent text-white border-2 border-white py-3 outline-none rounded-md  text-2xl" placeholder="set value" v-model="num" />
                     <button class=" text-2xl h-10 px-3 p-auto rounded-md border border-red-500" @click="setValue(num)">Add</button>
