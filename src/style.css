@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=Kanit:wght@700&display=swap');
-/* 'Kanit', sans-serif;'Kanit', sans-serif; */
+/* 'Kanit', sans-serif;; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +13,7 @@
         @apply flex justify-center items-start flex-col
     }
     .btn{
-        @apply  text-white px-8 py-3 border border-orange-600 text-center text-2xl font-bold rounded-md
+        @apply  text-white px-8 py-3 border  text-center text-2xl font-bold rounded-md
     }
 }
 
@@ -23,18 +23,18 @@
     margin: 0;
 }
 body{
-    background: url('./assets/anime.svg');
+    background: url('./assets/bg.svg');
     background-size: cover;
-    font-family: monospace;
+    font-family: 'Kanit', sans-serif;
 }
 h1,h2,h3{
-    font-family: monospace;
+    font-family: 'Kanit', sans-serif ;
 
 }
 button, .homing{
-    background-color: #ff725e;
+    background-color: #65DB87;
     border: none;
 }
 span{
-    color: #ff725e ;
+    color:  #65DB87 ;
 }

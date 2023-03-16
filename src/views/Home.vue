@@ -5,7 +5,7 @@ import Img from '../assets/calc.png'
 </script>
 
 <template>
-    <main class="wrapper  h-auto  main-bg  md:px-5 md:py-3">
+    <main class="wrapper backdrop-blur-sm  h-auto  main-bg  md:px-5 md:py-3">
         <div class="w-full  text-white py-6 md:py-4 flex justify-end  items-center px-5  ">
             <RouterLink to="/counter" class="text-2xl font-bold"> Counter</RouterLink>
         </div>
@@ -15,8 +15,8 @@ import Img from '../assets/calc.png'
             <div class=" grid grid-cols-2 text-white w-full h-full ">
                 <div class="col-span-2 md:col-span-1 ">
                     <div class="w-full h-full centered-col gap-9 px-6">
-                        <h1 class="w-10/12  text-5xl font-bold text-start ">Thinking of using a good and proven <span
-                                class="">counter </span> ? i've got you covered. </h1>
+                        <h1 class="w-10/12  text-5xl font-bold text-start ">You can't fine a worthy <span
+                                class="">counter </span> this perfect,trust me. </h1>
 
                         <p class="w-10/12 text-xl ">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla, veritatis adipisci mollitia
