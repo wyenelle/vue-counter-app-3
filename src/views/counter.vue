@@ -24,7 +24,7 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
 
             <div class="flex flex-col mb-4  w-7/12  gap=5">
                 <div class=" centered w-8/12 mx-auto gap-3">
-                    <input type="text" class="h-10  px-2  outline-none in rounded-md  text-2xl" placeholder=" value" v-model="num" />
+                    <input type="text" class="h-10 text-black px-2  outline-none in rounded-md  text-2xl" placeholder=" value" v-model="num" />
                     <button class=" text-2xl to px-3 p-auto rounded-md " @click="setValue(num)">Add</button>
                 </div>
 

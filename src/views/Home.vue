@@ -36,8 +36,10 @@ import Img from '../assets/calc.png'
                         </RouterLink>
                     </div>
                 </div>
-                <div class="col-span-2 md:col-span-1    ">
-                    <img :src="Img" alt="photo" class="" />
+                <div class="col-span-2 md:col-span-1   ">
+                    <div class="flex justify-center items-center">
+                        <img :src="Img" alt="photo" class="" />
+                    </div>
                 </div>
             </div>
 
