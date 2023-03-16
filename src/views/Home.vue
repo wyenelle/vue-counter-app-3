@@ -14,7 +14,7 @@ import Img from '../assets/calc.png'
 
             <div class=" grid grid-cols-2 text-white w-full h-full ">
                 <div class="col-span-2 md:col-span-1 ">
-                    <div class="w-full h-full centered-col gap-9 pl-6">
+                    <div class="w-full h-full centered-col gap-9 px-6">
                         <h1 class="w-10/12  text-5xl font-bold text-start ">Thinking of using a good and proven <span
                                 class="">counter </span> ? i've got you covered. </h1>
 
@@ -43,7 +43,7 @@ import Img from '../assets/calc.png'
 
         </div>
         <div class="mt-10"></div>
-        <RouterLink to="/counter" class="md:hidden pl-6 mt-10 ">
+        <RouterLink to="/counter" class="md:hidden px-6 mt-10 ">
             <button class="btn"> Explore</button>
         </RouterLink>
         <div class="h-40 ">
@@ -52,4 +52,12 @@ import Img from '../assets/calc.png'
     </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1{
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 2rem;
+    }
+}
+</style>

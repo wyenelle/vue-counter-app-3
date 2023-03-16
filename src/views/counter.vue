@@ -15,7 +15,7 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
 
 <template>
     <div class="h-screen pb-20 px-3 ">
-        <h1 class="text-white w-8/12 mx-auto mt-8 text-center text-3xl">Counter Page</h1>
+        <h1 class="text-white w-8/12 mx-auto mt-8 text-center font-bold text-4xl">Counter Page</h1>
 
         <div class="flex justify-evenly items-center flex-col mt-10 gap-5 h-5/6  text-white">
             <div class="h-40 rounded-md centered mb-3 ">
@@ -24,8 +24,8 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
 
             <div class="flex flex-col mb-4  w-7/12  gap=5">
                 <div class=" centered w-8/12 mx-auto gap-3">
-                    <input type="text" class="h-10  px-2  outline-none rounded-md  text-2xl" placeholder="set value" v-model="num" />
-                    <button class=" text-2xl h-10 px-3 p-auto rounded-md " @click="setValue(num)">Add</button>
+                    <input type="text" class="h-10  px-2  outline-none in rounded-md  text-2xl" placeholder="set value" v-model="num" />
+                    <button class=" text-2xl to px-3 p-auto rounded-md " @click="setValue(num)">Add</button>
                 </div>
 
 
@@ -48,4 +48,12 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.in{
+    width: 120px;
+    height: 60px;
+}
+.to{
+    height: 62px;
+}
+</style>
