@@ -14,8 +14,8 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
 </script>
 
 <template>
-    <div class="h-screen pb-20 ">
-        <h1 class="text-white w-6/12 mx-auto mt-8 text-center text-3xl">Counter Page</h1>
+    <div class="h-screen pb-20 px-3 ">
+        <h1 class="text-white w-8/12 mx-auto mt-8 text-center text-3xl">Counter Page</h1>
 
         <div class="flex justify-evenly items-center flex-col mt-10 gap-5 h-5/6  text-white">
             <div class="h-40 rounded-md centered mb-3 ">
