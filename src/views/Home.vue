@@ -16,7 +16,7 @@ import Img from '../assets/calc.png'
                 <div class="col-span-2 md:col-span-1 ">
                     <div class="w-full h-full centered-col gap-9 pl-6">
                         <h1 class="w-10/12  text-5xl font-bold text-start ">Thinking of using a good and proven <span
-                                class="text-orange-500">counter </span> ? i've got you covered. </h1>
+                                class="">counter </span> ? i've got you covered. </h1>
 
                         <p class="w-10/12 text-xl ">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nulla, veritatis adipisci mollitia

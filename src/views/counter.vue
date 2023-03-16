@@ -23,24 +23,24 @@ const { increment, decrement, reset, setValue } = useCounter(num, store)
             </div>
 
             <div class="flex flex-col mb-4  w-7/12  gap=5">
-                <div class=" centered">
-                    <input type="text" class="h-10  px-2 bg-transparent text-white border-2 border-white py-3 outline-none rounded-md  text-2xl" placeholder="set value" v-model="num" />
-                    <button class=" text-2xl h-10 px-3 p-auto rounded-md border border-red-500" @click="setValue(num)">Add</button>
+                <div class=" centered w-8/12 mx-auto gap-3">
+                    <input type="text" class="h-10  px-2  outline-none rounded-md  text-2xl" placeholder="set value" v-model="num" />
+                    <button class=" text-2xl h-10 px-3 p-auto rounded-md " @click="setValue(num)">Add</button>
                 </div>
 
 
 
                 <div>
-                    <div class="centered mt-3 gap-5">
-                        <button @click="decrement" class="  px-2 py-3 text-x bg-green-500 font-bold">Decrement</button>
-                        <button @click="reset" class=" px-2 py-3 text-x bg-red-500 font-bold">Reset</button>
-                        <button @click="increment" class=" px-2 py-3 text-x bg-green-500 font-bold">Increment</button>
+                    <div class="centered mt-6 gap-5">
+                        <button @click="decrement" class="  px-2 py-3 text-x bg-green-500 font-bold rounded-md">Decrement</button>
+                        <button @click="reset" class=" px-2 py-3 text-x bg-red-500 font-bold rounded-md">Reset</button>
+                        <button @click="increment" class=" px-2 py-3 text-x bg-green-500 font-bold rounded-md">Increment</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="px-3 py-6 w-10/12 md:w-4/12 mx-auto bg-orange-500 text-center rounded-md h-10 centered  text-white font-bold mb-20">
+        <div class="px-3 py-6 w-10/12 md:w-4/12 mx-auto homing text-center rounded-md h-10 centered  text-white font-bold mb-20">
             <router-link to='/' class="">
                 Return Home
             </router-link>

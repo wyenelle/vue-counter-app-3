@@ -30,6 +30,10 @@ h1,h2,h3{
     font-family: 'Kanit', sans-serif;
 
 }
-button{
-    background-color: #ff925e;
+button, .homing{
+    background-color: #ff725e;
+    border: none;
+}
+span{
+    color: #ff725e ;
 }
